@@ -8,6 +8,8 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('clicker');
+  this.route('sit');
+  this.route('stay');
 });
 
 export default Router;
